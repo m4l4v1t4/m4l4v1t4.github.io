@@ -7,7 +7,7 @@ set -e
 # Atualiza repositorio de projeto #
 ###################################
 
-#git config --local user.name $1
+git config --local user.name m4l4v1t4
 #git config --local user.email $2
 git add -A
 git commit -m "$1"
@@ -27,7 +27,7 @@ cd docs/.vitepress/dist
 # echo 'www.m4l4v1t4.sh' > CNAME
 
 #git init
-#git config --local user.name $1
+git config --local user.name m4l4v1t4
 #git config --local user.email $2
 git add -A
 git commit -m "$1"
