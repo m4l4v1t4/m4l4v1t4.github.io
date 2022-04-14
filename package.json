@@ -1,0 +1,18 @@
+{
+  "name": "m4l4v1t4.github.io",
+  "version": "1.0.0",
+  "description": "Site do M4l4v1🞡4",
+  "main": "index.js",
+  "repository": "https://github.com/m4l4v1t4/m4l4v1t4.github.io",
+  "author": "M4l4v1🞡4",
+  "license": "MPL-2.0",
+  "private": null,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.22.3"
+  }
+}
