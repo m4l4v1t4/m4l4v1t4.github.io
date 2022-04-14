@@ -8,10 +8,10 @@ set -e
 ###################################
 
 git config --local user.name m4l4v1t4
-#git config --local user.email $2
+git config --local user.email ricardo.de.andrade@outlook.com
 git add -A
 git commit -m "$1"
-git push -f m4l4v1t4@github.com:m4l4v1t4/-oiBuhtig4t1v4l4m.git main
+git push -f git@github.com:m4l4v1t4/-oiBuhtig4t1v4l4m.git main
 
 ###########################
 # Atualiza Site (GH Pages #
