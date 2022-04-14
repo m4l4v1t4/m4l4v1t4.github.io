@@ -7,6 +7,7 @@ set -e
 # Atualiza repositorio de projeto #
 ###################################
 
+git init
 git config --local user.name m4l4v1t4
 #git config --local user.email $2
 git add -A
