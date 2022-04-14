@@ -11,7 +11,6 @@ git config user.name m4l4v1t4
 git config user.email ricardo.de.andrade@outlook.com
 git add -A
 git commit -m "$1"
-git push -f git@github.com:m4l4v1t4/-oiBuhtig4t1v4l4m.git main
 
 ###########################
 # Atualiza Site (GH Pages #
@@ -26,8 +25,13 @@ cd docs/.vitepress/dist
 # se estiver em dominio proprio
 # echo 'www.m4l4v1t4.sh' > CNAME
 
+<<<<<<< HEAD
 #git init
 git config --local user.name m4l4v1t4
+=======
+git init
+#git config --local user.name $1
+>>>>>>> parent of 7af9ee7 (primeiro commit)
 #git config --local user.email $2
 git add -A
 git commit -m "$1"
